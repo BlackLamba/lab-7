@@ -1,0 +1,253 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.frame-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для контейнеров */
+.container-1, .container-19, .container-9, .container-12 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.frame-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.profile-picture {
+    width: 200px; /* Установите нужные размеры */
+    height: 200px; /* Установите нужные размеры */
+    object-fit: cover;
+    border: 2px solid #0073e6;
+}
+
+.frame-1, .frame-2, .frame-3, .frame-4, .frame-5, .frame-6, .frame-7, .frame-8, .frame-10, .frame-12 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 280px;
+}
+
+.container-11, .container-18, .container-3, .container-15 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.container-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.line-1, .line-2, .line-3 {
+    height: 2px;
+    background-color: #0073e6;
+    flex-grow: 1;
+}
+
+.container-info {
+    margin: 5px 0;
+}
+
+
+.iconprofile-circle-icon, .icon-alternate-phone-icon, .icon-envelope-icon, .iconmap-marker, .iconinstagram-icon, .iconglobe, .iconmonitor {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-alternate-phone-icon, .icon-envelope-icon, .iconmap-marker, .iconinstagram-icon, .iconglobe, .iconmonitor {
+    margin-right: 10px;
+}
+
+.vector-1, .vector, .vector-2, .vector-6, .vector-21 {
+    width: 100%;
+    height: 100%;
+}
+
+.emojithinking-face-emoji {
+    width: 40px;
+    height: 40px;
+}
+
+/* Специфические стили */
+.godot-python-cit {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.container-2, .container-10, .container-13, .container-6 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.container-6 img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Цветовые стили */
+.container-2, .container-10, .container-13, .container-6, .container-3, .container-15 {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-info {
+    color: #0073e6;
+}
+
+.container-title {
+    color: #333;
+}
+
+.godot-python-cit {
+    color: #666;
+}
+
+/* Контейнеры с иконками */
+.container-2 .vector-1, .container-10 .vector, .container-13 .vector-2, .container-6 .iconinstagram-icon, .container-3 .vector-6, .frame-6 .vector-21 {
+    fill: #0073e6;
+}
+
+.icon-alternate-phone-icon, .icon-envelope-icon, .iconmap-marker, .iconinstagram-icon, .iconglobe, .iconmonitor {
+    fill: #0073e6;
+}
+
+.container-18 {
+    background-color: #f0f5ff;
+}
+
+.frame-2 {
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
+
+.frame-4 .container-info {
+    color: #ffa500;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.frame-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание содержимого по левому краю */
+    padding: 20px; /* Отступ внутри рамки */
+}
+
+.frame-5 .container-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px; 
+}
+
+.frame-5 .container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.frame-5 .container-info {
+    color: purple;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.frame-7 .container-info {
+    color: #000;
+}
+
+.frame-8 .container-info {
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.frame-10 .container-info {
+    color: #008000;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.frame-12 .container-info {
+    color: #800080;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.frame-8 .container-title {
+    color: #800080;
+    margin-bottom: 40px;
+}
+
+.frame-12 .container-title {
+    color: #800080;
+}
+
+.frame-6 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.frame-6 .container-title {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.frame-6 .iconmonitor {
+    width: 24px;
+    height: 24px; 
+}
+
+.frame-6 .container-title {
+    color: #333;
+}
+
+.frame-10 .container-title {
+    color: #333;
+}
+
+.iconprofile-circle-icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
